@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha pagina</title>
+    <script type="text/javascript" src="js/main.js"></script>
+    <style>
+        body {
+            text-align: center;
+            box-sizing: border-box;
+            display: flex;
+            justify-content: center;
+        }
+
+        div {
+            align-items: center;
+            max-width: 22rem;
+            min-width: 20rem;
+            flex-direction: column;
+            display: flex;
+            border: 1px solid hsl(0, 0%, 61%);
+            max-height: 19.8rem;
+        }
+
+
+        p {
+            height: 12rem;
+            width: 12rem;
+            background-size: cover;
+            display: flex;
+        }
+
+        #like:nth-child(1) {
+
+            background-image: url('https://www.iconpacks.net/icons/2/free-icon-instagram-like-3507.png');
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h1>Teste de Função</h1>
+        <span>
+            <p id=like></p>
+            <button type="button" id=texto1 onmouseover="repete(this)" onmouseout="clica(this)"
+                onclick="clicou()">Clique
+                Aqui</button>
+            <p id=texto2 onmouseover="sobe(this)" onmouseout="voltar(this)">Da uma moral, da um click neste botão aqui.
+            </p>
+
+
+        </span>
+    </div>
+
+</body>
+
+</html>
